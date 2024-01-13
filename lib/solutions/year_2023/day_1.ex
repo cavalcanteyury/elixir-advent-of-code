@@ -22,7 +22,7 @@ defmodule Solutions.Year2023.Day1 do
   end
 
   def create_array(num) do
-    if (num <= 9) do
+    if num <= 9 do
       string = "#{num}" <> "#{num}"
       String.to_integer(string)
     else
